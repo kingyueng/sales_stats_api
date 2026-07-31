@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Rails
+tmp/*
+log/*
+storage/*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+*.docx
+
+# CI
+.github
+
+# Docker
+.dockerignore
+docker-compose*.yml
+
+# Vendored gems (will be installed inside container)
+vendor/bundle

@@ -1,0 +1,28 @@
+# Rails
+/log/*
+/tmp/*
+/storage/*
+
+# Dependencies
+/vendor/bundle
+
+# Ignore master key for security
+/config/master.key
+/config/credentials/*.key
+
+# Environment
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+*.docx
